@@ -1,0 +1,13 @@
+spring:
+  flyway:
+    enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+logging:
+  level:
+    root: info
+    com.cat.mid.demo.cart.cartms: debug
